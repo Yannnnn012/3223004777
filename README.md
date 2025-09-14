@@ -30,3 +30,7 @@ coverage report
 coverage html
 start htmlcov/index.html
 ```
+### 查重
+```bash
+python main.py test/orig.txt test/org_add.txt test/result.txt
+```
